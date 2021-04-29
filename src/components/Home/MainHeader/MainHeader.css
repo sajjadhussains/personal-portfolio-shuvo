@@ -1,0 +1,38 @@
+.download-button{
+    text-decoration: none;
+    color:white;
+}
+.download-button:hover{
+    text-decoration:none;
+    color:white;
+}
+.danger-button{
+    margin-left: 100px;
+}
+
+.text2{
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 10s steps(37) infinite alternate;
+    border-right: 3px solid gray;
+    font-size: 25px;
+    color: gray;
+    padding-left:40px;
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 37ch;
+    }
+}
+
+.social-media{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+

@@ -1,0 +1,8 @@
+.parent-div{
+    background-color: #343A40;
+    clip-path: polygon(100% 0, 100% 88%, 66% 91%, 0 100%, 0 0);
+    height: 600px;
+}
+.child-div{
+    height:300px; 
+}
